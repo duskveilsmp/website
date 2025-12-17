@@ -3,164 +3,211 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DuskveilSMP - Server Minecraft Indonesia</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Duskveil SMP - Survival Multiplayer Server</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="https://z-cdn-media.chatglm.cn/files/e748ef08-2165-4c9c-9399-7ce1707e90e8_duskveilsmpfoto.jpg?auth_key=1863119111-e77186eebf514d839f82c37ae9e99f3b-0-b75631fc4bdf73107f6620a6c1ac59f0" alt="DuskveilSMP Logo">
-            <h1>DuskveilSMP</h1>
+        <div class="container header-content">
+            <div class="logo">
+                <img src="https://i.ibb.co.com/0py7gXRR/server-icon-png.png" alt="Duskveil SMP Logo">
+                <h1>Duskveil SMP</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#info">Info</a></li>
+                    <li><a href="#rules">Rules</a></li>
+                    <li><a href="#features">Fitur</a></li>
+                    <li><a href="#connect">Connect</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#home">Beranda</a></li>
-                <li><a href="#features">Fitur</a></li>
-                <li><a href="#rules">Aturan</a></li>
-                <li><a href="#about">Tentang</a></li>
-                <li><a href="#contact">Kontak</a></li>
-            </ul>
-        </nav>
     </header>
 
     <section class="hero" id="home">
-        <div class="particles" id="particles"></div>
         <div class="hero-content">
-            <img src="https://z-cdn-media.chatglm.cn/files/e748ef08-2165-4c9c-9399-7ce1707e90e8_duskveilsmpfoto.jpg?auth_key=1863119111-e77186eebf514d839f82c37ae9e99f3b-0-b75631fc4bdf73107f6620a6c1ac59f0" alt="DuskveilSMP Logo">
-            <h2>SELAMAT DATANG DI DUSKVEIL SMP</h2>
-            <div class="server-info">
-                <p><i class="fas fa-server"></i> IP Server: <span>duskveilsmp.biz.id</span></p>
-                <p><i class="fas fa-door-open"></i> Port Bedrock: <span>default / 19181</span></p>
-                <p><i class="fab fa-java"></i> Versi Java: <span>1.20.1 – 1.21+</span></p>
-                <p><i class="fas fa-cube"></i> Versi Bedrock: <span>All Versions</span></p>
-            </div>
-            <div class="btn-group">
-                <a href="#" class="btn"><i class="fas fa-sign-in-alt"></i> Join Server Sekarang</a>
-                <a href="#features" class="btn btn-secondary"><i class="fas fa-star"></i> Lihat Fitur</a>
-                <a href="https://chat.whatsapp.com/HVXFINWG9if9yLgVaZ9RU2" target="_blank" class="btn btn-whatsapp"><i class="fab fa-whatsapp"></i> Grup WhatsApp</a>
-                <a href="https://discord.gg/GrYSKAJwEG" target="_blank" class="btn btn-discord"><i class="fab fa-discord"></i> Server Discord</a>
+            <h2>🌙 Welcome to Duskveil SMP</h2>
+            <p>Survival Multiplayer Server with Custom Features, Texture Pack, and Active Community</p>
+            <div class="server-ip">IP: duskveilsmp.biz.id:19030</div>
+            <a href="minecraft://duskveilsmp.biz.id:19030" class="btn">Join Now</a>
+            <a href="#info" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="info-section" id="info">
+        <div class="container">
+            <h2 class="section-title">🌐 Server Information</h2>
+            <div class="info-grid">
+                <div class="info-card">
+                    <i>🔗</i>
+                    <h3>Server IP</h3>
+                    <p><strong>duskveilsmp.biz.id:19030</strong></p>
+                    <p>Support: Java & Bedrock Edition</p>
+                </div>
+                <div class="info-card">
+                    <i>🛠️</i>
+                    <h3>Bedrock Port</h3>
+                    <p><strong>Port: 19029</strong></p>
+                    <p>Khusus pengguna Bedrock.</p>
+                </div>
+                <div class="info-card">
+                    <i>🎮</i>
+                    <h3>Versions</h3>
+                    <p><strong>Java:</strong> 1.20.1 – 1.21+</p>
+                    <p><strong>Bedrock:</strong> All Versions</p>
+                </div>
+                <div class="info-card">
+                    <i>🎨</i>
+                    <h3>Texture Pack</h3>
+                    <p>Download our optimized texture pack for better visuals:</p>
+                    <a href="https://www.dropbox.com/scl/fi/o0pgfr53ccxl4m1cq6nya/optimized-pack.zip?rlkey=2380v4oj2q9gvxm2tx46x15cy&st=0kgj62g2&dl=1" target="_blank" class="link-button">Download Here</a>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="features" id="features">
-        <h2 class="section-title">FITUR UNGGULAN</h2>
-        <div class="features-grid">
-            <div class="feature-card">
-                <i class="fas fa-skull-crossbones"></i>
-                <h3>No Keep Inventory</h3>
-                <p>Lebih menantang! Item akan hilang saat mati, jadi berhati-hatilah dalam petualanganmu.</p>
-            </div>
-            <div class="feature-card">
-                <i class="fas fa-trophy"></i>
-                <h3>Rank Progression & Team System</h3>
-                <p>Naikkan peringkatmu dan bentuk tim untuk bersaing dengan pemain lain.</p>
-            </div>
-            <div class="feature-card">
-                <i class="fas fa-sword"></i>
-                <h3>Legends Weapon & Custom Items</h3>
-                <p>Kumpulkan senjata legendaris dan item khusus yang tidak ada di vanilla Minecraft.</p>
-            </div>
-            <div class="feature-card">
-                <i class="fas fa-gift"></i>
-                <h3>Gacha Eksklusif</h3>
-                <p>Coba keberuntunganmu dengan Gacha system dan dapatkan hadiah langka.</p>
-            </div>
-            <div class="feature-card">
-                <i class="fas fa-magic"></i>
-                <h3>Custom Enchant</h3>
-                <p>Enchant kuat dan unik yang akan membuat gameplay lebih menarik.</p>
-            </div>
-            <div class="feature-card">
-                <i class="fas fa-coins"></i>
-                <h3>Coin Flip & Gambling System</h3>
-                <p>Coba keberuntunganmu dengan sistem judi yang aman dan terpercaya.</p>
-            </div>
-            <div class="feature-card">
-                <i class="fas fa-wallet"></i>
-                <h3>Economy System, Vault & Shop</h3>
-                <p>Sistem ekonomi yang lengkap dengan vault untuk menyimpan uang dan shop untuk berbelanja.</p>
-            </div>
-            <div class="feature-card">
-                <i class="fas fa-microphone"></i>
-                <h3>Voice Chat</h3>
-                <p>Chat langsung dengan suara dalam game tanpa perlu aplikasi pihak ketiga.</p>
-            </div>
-            <div class="feature-card">
-                <i class="fas fa-cubes"></i>
-                <h3>Spawner, Stack Totem & RTP</h3>
-                <p>Banyak fitur lainnya seperti Spawner, Stack Totem, RTP, SkyFactory, dan masih banyak lagi!</p>
+    <section class="info-section" id="rules">
+        <div class="container">
+            <h2 class="section-title">🚫 Server Rules</h2>
+            <div class="info-grid">
+                <div class="info-card">
+                    <i>✖️</i>
+                    <h3>No Hacks/Cheats</h3>
+                    <p>Penggunaan hack client atau cheat dilarang keras.</p>
+                </div>
+                <div class="info-card">
+                    <i>💬</i>
+                    <h3>Toxic Waras</h3>
+                    <p>Boleh toxic, tapi tetap jaga batas dan tidak melebihi batas kewajaran.</p>
+                </div>
+                <div class="info-card">
+                    <i>📢</i>
+                    <h3>No Spam/Iklan/Bully</h3>
+                    <p>Dilarang spam, promosi, atau bullying terhadap player lain.</p>
+                </div>
+                <div class="info-card">
+                    <i>🌍</i>
+                    <h3>Jangan Bahas Server Lain</h3>
+                    <p>Tidak diperkenankan membahas server lain tanpa izin staff.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="rules" id="rules">
-        <div class="rules-container">
-            <h2 class="section-title">ATURAN SERVER</h2>
-            <div class="rules-grid">
-                <div class="rule-card">
-                    <i class="fas fa-ban"></i>
-                    <div>
-                        <h3>No Hack Client, Cheat</h3>
-                        <p>Penggunaan client ilegal atau cheat akan langsung di-ban tanpa peringatan.</p>
-                    </div>
+    <section class="info-section" id="features">
+        <div class="container">
+            <h2 class="section-title">⚡ Fitur Unggulan</h2>
+            <div class="info-grid">
+                <div class="info-card">
+                    <i>❌</i>
+                    <h3>No Keep Inventory</h3>
+                    <p>Lebih menantang! Itemmu akan hilang saat mati.</p>
                 </div>
-                <div class="rule-card">
-                    <i class="fas fa-comment-slash"></i>
-                    <div>
-                        <h3>Toxic Boleh Asal Waras</h3>
-                        <p>Toxic diperbolehkan selama masih dalam batas wajar dan tidak berlebihan.</p>
-                    </div>
+                <div class="info-card">
+                    <i>🏆</i>
+                    <h3>Rank & Team System</h3>
+                    <p>Sistem rank dan tim untuk membangun komunitas.</p>
                 </div>
-                <div class="rule-card">
-                    <i class="fas fa-volume-mute"></i>
-                    <div>
-                        <h3>No Spam, No Iklan, No Bullying</h3>
-                        <p>Dilarang keras melakukan spam, iklan server lain, atau bullying kepada pemain lain.</p>
-                    </div>
+                <div class="info-card">
+                    <i>⚔️</i>
+                    <h3>Legends Weapon</h3>
+                    <p>Senjata eksklusif dengan efek dan statistik luar biasa.</p>
                 </div>
-                <div class="rule-card">
-                    <i class="fas fa-users-slash"></i>
-                    <div>
-                        <h3>Bahas Server Lain</h3>
-                        <p>Dilarang membahas atau mempromosikan server lain tanpa izin dari admin.</p>
-                    </div>
+                <div class="info-card">
+                    <i>🎁</i>
+                    <h3>Gacha Eksklusif</h3>
+                    <p>Dapatkan item langka melalui sistem gacha.</p>
                 </div>
-                <div class="rule-card">
-                    <i class="fas fa-hammer"></i>
-                    <div>
-                        <h3>Bebas Grief Base</h3>
-                        <p>Griefing base pemain lain diperbolehkan, jadi lindungi base dengan baik!</p>
-                    </div>
+                <div class="info-card">
+                    <i>✨</i>
+                    <h3>Custom Enchant</h3>
+                    <p>Pelekatan ajaib kuat dan unik untuk senjatamu.</p>
+                </div>
+                <div class="info-card">
+                    <i>🎲</i>
+                    <h3>Coin Flip & Gambling</h3>
+                    <p>Sistem taruhan yang seru dan adil.</p>
+                </div>
+                <div class="info-card">
+                    <i>💰</i>
+                    <h3>Economy System</h3>
+                    <p>Sistem ekonomi, vault, dan toko untuk jual beli.</p>
+                </div>
+                <div class="info-card">
+                    <i>🎤</i>
+                    <h3>Voice Chat In-Game</h3>
+                    <p>Bicara langsung dengan player lain langsung di game.</p>
+                </div>
+                <div class="info-card">
+                    <i>📦</i>
+                    <h3>Spawner & Stack Totem</h3>
+                    <p>Mudahkan farming dengan spawner dan stack totem.</p>
+                </div>
+                <div class="info-card">
+                    <i>🌟</i>
+                    <h3>RTP, SkyFactory, DLL</h3>
+                    <p>Mode gameplay tambahan seperti RTP, SkyFactory, dan lainnya!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="info-section" id="connect">
+        <div class="container">
+            <h2 class="section-title">🌐 CONNECT WITH US</h2>
+            <div class="info-grid">
+                <div class="info-card">
+                    <i>📲</i>
+                    <h3>WhatsApp</h3>
+                    <p><strong>+62 831-5008-2652</strong></p>
+                    <p>Only this number is official</p>
+                    <a href="https://wa.me/6283150082652" target="_blank" class="link-button">Chat Now</a>
+                </div>
+                <div class="info-card">
+                    <i>🎥</i>
+                    <h3>TikTok</h3>
+                    <p>@duskveilsmp.biz.id</p>
+                    <a href="https://tiktok.com/@duskveilsmp.biz.id" target="_blank" class="link-button">Follow Us</a>
+                </div>
+                <div class="info-card">
+                    <i>💬</i>
+                    <h3>Discord</h3>
+                    <p>Join our server community</p>
+                    <a href="https://dsc.gg/duskveilsmp" target="_blank" class="link-button">Join Discord</a>
+                </div>
+                <div class="info-card">
+                    <i>📦</i>
+                    <h3>Texture Pack</h3>
+                    <p>Optimized for performance</p>
+                    <a href="https://www.dropbox.com/scl/fi/o0pgfr53ccxl4m1cq6nya/optimized-pack.zip?rlkey=2380v4oj2q9gvxm2tx46x15cy&st=0kgj62g2&dl=1" target="_blank" class="link-button">Download Now</a>
                 </div>
             </div>
         </div>
     </section>
 
     <footer>
-        <div class="footer-content">
-            <div class="logo">
-                <img src="https://z-cdn-media.chatglm.cn/files/e748ef08-2165-4c9c-9399-7ce1707e90e8_duskveilsmpfoto.jpg?auth_key=1863119111-e77186eebf514d839f82c37ae9e99f3b-0-b75631fc4bdf73107f6620a6c1ac59f0" alt="DuskveilSMP Logo" width="50">
-                <h1>DuskveilSMP</h1>
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <img src="https://i.ibb.co.com/0py7gXRR/server-icon-png.png" alt="Duskveil SMP Logo" width="80">
             </div>
-            
-            <div class="community-links">
-                <a href="https://chat.whatsapp.com/HVXFINWG9if9yLgVaZ9RU2" target="_blank" class="whatsapp-link">
-                    <i class="fab fa-whatsapp"></i> Join Grup WhatsApp
-                </a>
-                <a href="https://discord.gg/GrYSKAJwEG" target="_blank" class="discord-link">
-                    <i class="fab fa-discord"></i> Join Server Discord
-                </a>
-            </div>
-            
+            <h3>Duskveil SMP</h3>
+            <p>Your Ultimate Minecraft Survival Experience</p>
             <div class="social-links">
-                <a href="#"><i class="fab fa-discord"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="https://wa.me/6283150082652" target="_blank" class="social-link">
+                    <span>📲</span> WhatsApp
+                </a>
+                <a href="https://tiktok.com/@duskveilsmp.biz.id" target="_blank" class="social-link">
+                    <span>🎥</span> TikTok
+                </a>
+                <a href="https://dsc.gg/duskveilsmp" target="_blank" class="social-link">
+                    <span>💬</span> Discord
+                </a>
+                <a href="https://www.dropbox.com/scl/fi/o0pgfr53ccxl4m1cq6nya/optimized-pack.zip?rlkey=2380v4oj2q9gvxm2tx46x15cy&st=0kgj62g2&dl=1" target="_blank" class="social-link">
+                    <span>🎨</span> Texture Pack
+                </a>
             </div>
-            <p class="copyright">&copy; 2025 DuskveilSMP. All rights reserved.</p>
+            <p class="copyright">© 2025 Duskveil SMP. All rights reserved.<br>Website ini dibuat oleh <strong>kunZzdev</strong> 🐺</p>
         </div>
     </footer>
 
